@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
+
 }
 
 @font-face {
@@ -103,7 +105,6 @@ nav{
     background: url(./img/apehome-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    flex-wrap: wrap;
 
 }
 
@@ -114,7 +115,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 .text-sec{
@@ -135,6 +135,7 @@ nav{
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
+    flex-wrap: wrap;
 }
 .text-sec>h3{
     font-family: Mregular;
@@ -276,6 +277,7 @@ nav{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: 1s;
     padding: 15px;
+    flex-wrap: wrap;
 }
 
 .main-card:hover{
