@@ -194,4 +194,19 @@
     .haeddiv h3{
         font-size: 25px;
     }
+
+    footer{
+        font-size: 10px;
+    }
+
+    .slize-div{
+        width: 70px;
+        height: 70px;
+        margin-top: 500px;
+        opacity: 80;
+    }
+
+    @media screen {
+        
+    }
 }
