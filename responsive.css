@@ -159,4 +159,39 @@
     .card-txt h3{
         font-size: 23px;
     }
+
+    .roadmap-sec{
+        height: auto;
+        /* background-color: red; */
+        margin-top: 20px;
+    }
+/* .inner-roadmap{
+    height: auto;
+} */
+
+    .inner-roadmap h3{
+        font-size: 35px;
+    }
+
+    .card-div{
+        height: 90%;
+        width: 90%;
+        /* background-color: green; */
+        row-gap: 15px;
+    }
+
+    .roadcard{
+        height: 250px;
+        width: 90%;
+    
+    }
+
+    .haeddiv {
+        justify-content: left;
+        width: 46%;
+    }
+
+    .haeddiv h3{
+        font-size: 25px;
+    }
 }
