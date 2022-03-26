@@ -16,17 +16,20 @@
 
     .inner-sec{
         width: 90%;
+        flex-direction: column;
     }
     .text-sec{
         /* height: 1000px; */
         width: 100%;
         /* background-color: red; */
         justify-content: left;
+        flex-direction: column;
     }
 
     .img-text{
         height: 50%;
         width: 100%;
+        /* background-color: green; */
     }
     .text-sec h3{
         font-size: 25px;
@@ -44,10 +47,11 @@
         width: auto;
         height: auto;
         /* background-color: green; */
+        justify-content: space-between;
     }
 
     .home-txt-btn button:nth-child(1){
-        width: 55%;
+        width: 40%;
     }
     .home-txt-btn button{
         width: 40%;
@@ -76,5 +80,50 @@
         background-position: center;
         background-size: 60%;
     }
+.token-section{
+    height: auto;
+    overflow: hidden;
+}
 
+    .inner-token-sec{
+        height: auto;
+        /* background-color: red; */
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: left;
+    }
+
+    .txt-token-sec{
+        width: 100%;
+        justify-content: left;
+        align-items: left;
+        height: 350px;
+        /* background-color: green; */
+        margin-top: 100px;
+    }
+    .txt-token-sec h3{
+        font-size: 25px;
+        width: 90%;
+        /* background-color: yellow; */
+    }
+
+    .special{
+        font-size: 25px;
+    }
+.card-token-sec{
+    height: 1000px;
+    width: 100%;
+    justify-content: space-evenly;
+    /* background-color: red; */
+    align-items: center;
+    margin-bottom: 280px;
+}
+
+    .main-card{
+        width: 90%;
+    }
+
+    .main-card:nth-child(2){
+        margin-top: 0px;
+    }
 }
