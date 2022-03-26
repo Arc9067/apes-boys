@@ -126,4 +126,37 @@
     .main-card:nth-child(2){
         margin-top: 0px;
     }
+
+    .tokenomics{
+        height: auto;
+        /* background-color: red; */
+        flex-direction: column;
+    }
+    .inner-tokenomics{
+        /* background-color: red; */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inner-tokenomics h3{
+        font-size: 35px;
+    }
+    .tokencard{
+        /* background-color: red; */
+        flex-direction: column;
+    }
+
+    .main-tokencard{
+        width: 90%;
+        height: 200px;
+        margin-top: 10px;
+    }
+
+    .no{
+        display: none;
+    }
+
+    .card-txt h3{
+        font-size: 23px;
+    }
 }
